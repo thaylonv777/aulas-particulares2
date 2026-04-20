@@ -8,19 +8,53 @@
 <meta name="description" content="Aulas particulares de tráfego pago com Thaylon. Aprenda Meta Ads e Google Ads do zero ao avançado com metodologia própria e suporte individual.">
 <title>Thaylon | Aulas de Tráfego Pago - Do Zero ao Avançado</title>
 
+<!-- ========================================
+META PIXEL - DEVE FICAR NO <head> PARA:
+- Disparar PageView o mais cedo possível
+- Setar cookies _fbp/_fbc antes de qualquer interação
+- Melhorar Event Match Quality
+- Garantir que fbq() esteja disponível para eventos customizados no body
+======================================== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1438331040639539');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1438331040639539&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/thaylonv777/aulas-particulares2/main/MULT8373.jpg">
 <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/thaylonv777/aulas-particulares2/main/MULT8373.jpg">
+
+<!-- DNS Prefetch + Preconnect -->
 <link rel="dns-prefetch" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com">
+<link rel="preconnect" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com" crossorigin>
 <link rel="dns-prefetch" href="https://connect.facebook.net">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <!-- Preload imagens críticas -->
 <link rel="preload" as="image" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MULT8404-ZxtqlfEbVELxRCwpIcaUSWvTHDow4K.jpg">
 <link rel="preload" as="image" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Meta-Logo%20%281%29%20BRANCA-G9XljI1ScOiBs3WkGLdRmRKYNcpMiW.png">
 <link rel="preload" as="image" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/google-ads-removebg-preview-A1xBXNvyDbrRNGDJWlw8lzKN05ELvQ.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<!-- Google Fonts não bloqueante (com fallback noscript) -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" media="print" onload="this.media='all'">
+<noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+</noscript>
 
 <style>
 /* ========================================
@@ -1050,10 +1084,6 @@ justify-content: center;
 color: var(--text-secondary);
 font-size: 0.6rem;
 text-align: center;
-/* Para trocar por imagem real:
-background-image: url('caminho-do-avatar.jpg');
-background-size: cover;
-background-position: center; */
 }
 
 .depoimento-info h4 {
@@ -1930,24 +1960,5 @@ header.style.backgroundColor = 'rgba(13, 17, 23, 0.95)';
 });
 </script>
 
-<!-- Meta Pixel -->
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1438331040639539');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1438331040639539&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
 </body>
 </html>
-
